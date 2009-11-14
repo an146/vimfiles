@@ -172,6 +172,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set autoindent
+set cinoptions=:0,g0,t0
 
 "folding settings
 set foldmethod=indent   "fold based on indent

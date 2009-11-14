@@ -230,6 +230,9 @@ nnoremap Y y$
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
 
+"FuzzyFinder ignoring auto-generated shit
+let g:fuzzy_ignore = "doc/html/*;*.o;**/moc_*;**/ui_*"
+
 "snipmate setup
 source ~/.vim/snippets/support_functions.vim
 autocmd vimenter * call s:SetupSnippets()
